@@ -9,7 +9,8 @@ body{
 
 
 .container {
-    max-width: 800px;
+    width: 500px;
+    /* max-width: 1000px; */
     margin: 0 auto;
     padding: 20px;
     background-color: #3ed61f;
@@ -19,10 +20,6 @@ body{
     align-items: center;
     justify-content: center;
     position:relative;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
 }
 
 
@@ -38,12 +35,14 @@ label{
 }
 
 input{
-    width: 200px;
+    width: 100%;
+    background-color:antiquewhite;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 0.7em;
+    font-size: 1em;
+    box-sizing: border-box;
 }
 
 #roleInput{
@@ -52,5 +51,26 @@ input{
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 0.9em;
+    font-size: 1em;
+    background-color: antiquewhite;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #1a57b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em ;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+
+#message{
+    color: #494b27;
+    padding: 10px;
+    text-align: center;
 }

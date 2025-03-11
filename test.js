@@ -4,7 +4,7 @@ function checkPerson() {
     let role = document.getElementById("roleInput").value;
     let message = "";
 
-    if (age >= 18 && age <= 60) {
+    if (age >= 18 || age <= 60) {
         message = `Welcome ${name}, you are an ${role}! Access granted.`;
     } else if (age > 60) {
         message = `Sorry ${name}, you are too old to enter.`;
